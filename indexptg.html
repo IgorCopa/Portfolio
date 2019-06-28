@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/menu.css">
+    <title>Igor Oliveira | Desenvolvedor Front-End</title>
+</head>
+<body id="body">
+    <!-- HEADER -->
+    <div class="menu" id="menu">
+        <!--Picture on CSS-->
+        <input type="checkbox" class="toggle" id="toggle">
+        <div class="hamburger" id="hamburger"><div class="hamb"></div></div>
+        <nav class="nav" id="nav">
+            <ul class="ul-a" id="ul-a">
+                <li><a href="#">inicio</a></li>
+                <li><a href="#about">sobre</a></li>
+                <li><a href="#folio">portfólio</a></li>
+                <li><a href="#contact">contato</a></li>
+            </ul>
+            <ul class="ul-b" id="ul-b">
+                <li><a href="indexptg.html" class="eng"><img src="_images/pt.jpg"></a></li>
+                <li><a href="index.html" class="spn"><img src="_images/eng.jpg"></a></li>
+                <li><a href="indexspn.html" class="ptg"><img src="_images/spn.jpg"></a></li>
+            </ul>
+        </nav>
+        <div class="shadow"></div>
+    </div>
+    <main>
+        <header class="header">
+            <div class="name">
+                <h1>Igor Oliveira</h1>
+                <h2>Desenvolvedor Front-End</h2>
+            </div>
+            <div class="click"><h2></h2></div>
+            <!-- <input type="checkbox" id="btn"> -->
+            <a href="#about" class="button" id="button">
+                <div class="trigger" id="trigger"><div class="dot" id="dot"></div></div>
+            </a>
+        </header>
+        <div class="oveRLay"></div>
+        <!-- CONTENT -->
+        <section>
+            <div class="content about" id="about">
+                <h2>sobre</h2>
+                <div class="inner-content">
+                    <div class="logo">
+                        <img src="_images/logo.jpg">
+                    </div>
+                    <p>Igor Oliveira é um desenvolvedor Front-End que está estudando Desenvolvimento
+                        Web na Universidade Brigham Young em Idaho (EUA). ele é um desenvolvedor
+                        autodidata, adquiriu muito conhecimento sozinho antes mesmo da faculdade.
+                        Tem HTML5 e CSS3 avançado e também sabe o básico de JavaScript.
+                        Seu principal objetivo em 2019 é se tornar intermediário em JS já que ele
+                        tem planos de aprender outras tecnologias também, como WordPress, SASS e
+                        jQuery. Ele também gosta muito de fazer sites bonitos, provendo a melhor
+                        experiência possível para você. Igor ama programar e também gosta de usar
+                        efeitos nos sites que programa. Como um perfeccionista, está sempre
+                        pronto para aprender mais afim de implementar a melhor tecnologia nos
+                        sites dos seus clientes.</p>
+                </div>
+            </div>
+            <div class="content folio" id="folio">
+                <h2>portfólio</h2>
+                <div class="h2a"></div>
+                <div class="grid">
+                    <figure class="pic grid-a">
+                        <img src="_images/bearded-ones-responsive.jpg">
+                        <figcaption class="caption">
+                            <div class="overL"></div>
+                            <a href="http://www.beardedones.com" target="_blank">Mais...</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="pic grid-b">
+                        <img src="_images/locked-and-loaded-responsive.jpg">
+                        <figcaption class="caption">
+                            <div class="overL"></div>
+                            <a href="http://www.lockedandloaded.com" target="_blank">Mais...</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="pic grid-c">
+                        <img src="_images/paraisos-brasileiros-responsive.jpg">
+                        <figcaption class="caption">
+                            <div class="overL"></div>
+                            <a href="http://www.paraisosbrasileiros.com.br" target="_blank">Mais...</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="pic grid-d">
+                        <img src="_images/worldly-paradises-responsive.jpg">
+                        <figcaption class="caption">
+                            <div class="overL"></div>
+                            <a href="http://www.worldlyparadises.com" target="_blank">Mais...</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="content footer" id="contact">
+        <h2>contato</h2>
+        <!-- <form name="form" id="form" method="POST">
+            <label id="name">Nome</label>
+            <input type="text" id="yourName" placeholder="Your name here">
+            <label id="email">E-mail</label>
+            <input type="email" id="yourEmail" placeholder="Your email here">
+            <label id="msg">Message</label>
+            <textarea name="yourArea" placeholder="Leave your message"></textarea>
+        </form> -->
+        <div class="footer-w">
+            <div class="email">
+                <img src="_images/email.png" alt="e-mail"><p>ximenes.lds@gmail.com</p>
+            </div>
+            <div class="insta">
+                <img src="_images/insta.png" alt="Instagram"><a href="#">igor_copa</a>
+            </div>
+            <div class="gh">
+                <img src="_images/github.png" alt="GitHub"><a href="#">igor_copa</a>
+            </div>
+            <!-- <div class="zap">
+                <img src="_images/zap.png" alt=""><p>+55 (21) 9.7265-1814</p>
+            </div> -->
+            <p>Igor Oliveira &copy; 2019</p>
+        </div>
+    </footer>
+    <!-- JAVASCRIPT -->
+    <script>
+
+        function toggB(){
+            body.style.animationDelay="1s";
+            body.style.scrollBehavior="smooth";
+            body.style.transition="all 1s ease-in";
+        }
+        setTimeout(toggB, 1500);
+
+        let btn = document.getElementById("button");
+        let trg = document.getElementById("trigger");
+        let dt = document.getElementById("dot");
+        let bd = document.getElementById("body");
+        let navig = document.getElementById("nav");
+        let abt = document.getElementById("about");
+
+        function togg(){
+            btn.style.backgroundColor="rgba(45, 45, 230)";
+            btn.style.boxShadow="3px 0 3px rgba(45, 45, 230, .6),-3px 0 3px rgba(45, 45, 230, .6)";
+
+            trg.style.top="38%";
+
+            dt.style.backgroundColor="rgba(45, 45, 230)";
+            dt.style.boxShadow="3px 0 3px rgba(45, 45, 230, .6),-3px 0 3px rgba(45, 45, 230, .6)";
+        }
+
+        // function close(){
+        //     navig.style.transform="translateX(-110%)";
+        // }
+
+        btn.addEventListener("click", togg);
+        // abt.addEventListener("click", close);
+
+    </script>
+</body>
+</html>
