@@ -61,7 +61,7 @@ main{
     justify-content: space-between;
     max-width: 62em;
     height: 100vh;
-    background: url(../_images/bg-image.jpg);
+    background: url(../images/bg-image.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
