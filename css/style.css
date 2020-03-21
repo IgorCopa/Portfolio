@@ -192,11 +192,6 @@ section{
     margin: 1.5rem .5rem 0 .5rem;
 }
 
-.inner-content p:hover{
-    box-shadow: 2px 0 9px rgba(45, 45, 230),
-                -2px 0 9px rgba(45, 45, 230);
-}
-
 .inner-content .logo{
     width: 8rem;
     height: 8rem;
