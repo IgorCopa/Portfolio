@@ -3,4 +3,4 @@
 My goal now is to upgrade my portfolio in order to find
 a position on the job market.
 
-Access here: https://igorcopa.github.io/portfolio/
+You can see it here: https://igorcopa.github.io/portfolio/
