@@ -1,5 +1,3 @@
-
-## IgorOliveira
 ## My Portfolio
 
 My goal now is to upgrade my portfolio in order to find
