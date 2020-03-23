@@ -34,8 +34,7 @@
                 <h1>Igor Oliveira</h1>
                 <h2>Desenvolvedor Front-End</h2>
             </div>
-            <div class="click"><h2></h2></div>
-            <!-- <input type="checkbox" id="btn"> -->
+            <div class="click"><h2>Sobre mim</h2></div>
             <a href="#about" class="button" id="button">
                 <div class="trigger" id="trigger"><div class="dot" id="dot"></div></div>
             </a>
@@ -126,39 +125,6 @@
         </div>
     </footer>
     <!-- JAVASCRIPT -->
-    <script>
-
-        function toggB(){
-            body.style.animationDelay="1s";
-            body.style.scrollBehavior="smooth";
-            body.style.transition="all 1s ease-in";
-        }
-        setTimeout(toggB, 1500);
-
-        let btn = document.getElementById("button");
-        let trg = document.getElementById("trigger");
-        let dt = document.getElementById("dot");
-        let bd = document.getElementById("body");
-        let navig = document.getElementById("nav");
-        let abt = document.getElementById("about");
-
-        function togg(){
-            btn.style.backgroundColor="rgba(45, 45, 230)";
-            btn.style.boxShadow="3px 0 3px rgba(45, 45, 230, .6),-3px 0 3px rgba(45, 45, 230, .6)";
-
-            trg.style.top="38%";
-
-            dt.style.backgroundColor="rgba(45, 45, 230)";
-            dt.style.boxShadow="3px 0 3px rgba(45, 45, 230, .6),-3px 0 3px rgba(45, 45, 230, .6)";
-        }
-
-        // function close(){
-        //     navig.style.transform="translateX(-110%)";
-        // }
-
-        btn.addEventListener("click", togg);
-        // abt.addEventListener("click", close);
-
-    </script>
+    <script src="./js/scripts.js"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <title>Igor Oliveira | Front-End Developer</title>
 </head>
-<body id="body">
+<body>
     <!-- HEADER -->
     <div class="menu" id="menu">
         <!--Picture on CSS-->
@@ -35,7 +35,6 @@
                 <h2>Front-End Developer</h2>
             </div>
             <div class="click"><h2>Click to go!</h2></div>
-            <!-- <input type="checkbox" id="btn"> -->
             <a href="#about" class="button" id="button">
                 <div class="trigger" id="trigger"><div class="dot" id="dot"></div></div>
             </a>
@@ -100,52 +99,25 @@
     <footer class="content footer" id="contact">
         <h2>contact</h2>
         <div class="footer-w">
-            <div class="email">
-                <img src="images/email.png" alt="e-mail"><p>igoro.copa@gmail.com</p>
+            <div class="li">
+                <img src="images/linkedin.png" alt="Linkedin"><a href="https://www.linkedin.com/in/igor-oliveira-49810598/?locale=en_US">Igor Oliveira</a>
             </div>
-            <div class="insta">
-                <img src="images/insta.png" alt="Instagram"><a href="#">igor_copa</a>
+            <div class="rsm">
+                <img src="images/resume.png" alt="Resume"><a href="https://igorcopa.github.io/resume/">My Resume</a>
             </div>
             <div class="gh">
-                <img src="images/github.png" alt="GitHub"><a href="#">IgorCopa</a>
+                <img src="images/github.png" alt="GitHub"><a href="https://github.com/IgorCopa">IgorCopa</a>
+            </div>
+            <div class="insta">
+                <img src="images/insta.png" alt="Instagram"><a href="https://www.instagram.com/igor_copa/">igor_copa</a>
+            </div>
+            <div class="email">
+                <img src="images/email.png" alt="e-mail"><p id="e-m">igoro.copa@gmail.com</p>
             </div>
             <p>Igor Oliveira &copy; 2019</p>
         </div>
     </footer>
     <!-- JAVASCRIPT -->
-    <script>
-
-        function toggB(){
-            body.style.animationDelay="1s";
-            body.style.scrollBehavior="smooth";
-            body.style.transition="all 1s ease-in";
-        }
-        setTimeout(toggB, 1500);
-
-        let btn = document.getElementById("button");
-        let trg = document.getElementById("trigger");
-        let dt = document.getElementById("dot");
-        let bd = document.getElementById("body");
-        let navig = document.getElementById("nav");
-        let abt = document.getElementById("about");
-
-        function togg(){
-            btn.style.backgroundColor="rgba(45, 45, 230)";
-            btn.style.boxShadow="3px 0 3px rgba(45, 45, 230, .6),-3px 0 3px rgba(45, 45, 230, .6)";
-
-            trg.style.top="38%";
-
-            dt.style.backgroundColor="rgba(45, 45, 230)";
-            dt.style.boxShadow="3px 0 3px rgba(45, 45, 230, .6),-3px 0 3px rgba(45, 45, 230, .6)";
-        }
-
-        // function close(){
-        //     navig.style.transform="translateX(-110%)";
-        // }
-
-        btn.addEventListener("click", togg);
-        // abt.addEventListener("click", close);
-
-    </script>
+    <script src="./js/scripts.js"></script>
 </body>
 </html>
