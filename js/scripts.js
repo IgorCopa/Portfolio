@@ -8,7 +8,7 @@ function toggleButton(){
 
     dot.style.backgroundColor="rgba(15, 100, 15)";
     dot.style.boxShadow="3px 0 3px rgba(25, 240, 25, .35),-3px 0 3px rgba(25, 240, 25, .35)";
-    
+
     window.addEventListener('scroll', () => {
         let topScrollPosition = window.scrollY;
         if(topScrollPosition === 0){
