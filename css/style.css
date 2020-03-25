@@ -78,17 +78,13 @@ main{
     opacity: .8;
 }
 
-.header .click{
-    margin-bottom: 1.2rem;
-}
-
 .header .button{
     position: relative;
     opacity: 1;
     width: 2rem;
     height: 4rem;
     border-radius: 50px;
-    bottom: 1.5rem;
+    bottom: 2rem;
     z-index: 3;
     background-color: rgba(20, 20, 20);
     transition: all .15s ease-in;
@@ -140,7 +136,7 @@ main{
 .header .click{
     position: absolute;
     bottom: 0;
-    bottom: 4rem;
+    bottom: 5.7rem;
     z-index: 2;
 }
 
@@ -463,5 +459,18 @@ textarea{
 
     .content h2{
         margin-top: 2rem;
+    }
+
+    .header .button{
+        position: relative;
+        opacity: 1;
+        width: 2rem;
+        height: 4rem;
+        border-radius: 50px;
+        bottom: .5rem;
+        z-index: 3;
+        background-color: rgba(20, 20, 20);
+        transition: all .15s ease-in;
+        outline: none;
     }
 }
