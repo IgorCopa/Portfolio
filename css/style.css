@@ -136,7 +136,7 @@ main{
 .header .click{
     position: absolute;
     bottom: 0;
-    bottom: 4rem;
+    bottom: 5.7rem;
     z-index: 2;
 }
 
@@ -462,7 +462,7 @@ textarea{
     }
     
     .header .click{
-        bottom: 5.7rem;
+        bottom: 4rem;
     }
 
     .header .button{
