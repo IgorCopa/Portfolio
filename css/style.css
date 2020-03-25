@@ -78,13 +78,17 @@ main{
     opacity: .8;
 }
 
+.header .click{
+    margin-bottom: 1.2rem;
+}
+
 .header .button{
     position: relative;
     opacity: 1;
     width: 2rem;
     height: 4rem;
     border-radius: 50px;
-    bottom: .5rem;
+    bottom: 1.5rem;
     z-index: 3;
     background-color: rgba(20, 20, 20);
     transition: all .15s ease-in;
